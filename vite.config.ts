@@ -9,6 +9,7 @@ export default defineConfig({
     react(),
     legacy()
   ],
+  base :"/Arena_clash",
   test: {
     globals: true,
     environment: 'jsdom',
